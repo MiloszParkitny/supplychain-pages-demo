@@ -25,10 +25,12 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: npm
+
+      - name: Clear npm cache (force fresh fetch)
+        run: npm cache clean --force
 
       - name: Install dependencies (SUPPLY CHAIN ENTRY)
-        run: npm install --no-package-lock.
+        run: npm install --no-package-lock
 
       - name: Show installed mock-feed payload (PROOF)
         run: node -p "require('@maaz96/kc-mock-feed')"
@@ -40,6 +42,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: dist
+  
 
   deploy:
     environment:
