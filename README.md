@@ -39,9 +39,11 @@ The attack is performed by modifying a trusted external dependency.
 ---
 
 **Before attack**
+
 ![Before](images/before.png)
 
 **After attack**
+
 ![After](images/after.png)
 
 ---
