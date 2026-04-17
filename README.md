@@ -87,6 +87,8 @@ https://miloszparkitny.github.io/supplychain-pages-demo/
 
 ---
 
-## 📌 Notes
+---
 
-This is a controlled educational demo.
+## 🎯 Key takeaway
+
+Dependency updates can introduce security risks without any changes to your codebase.
