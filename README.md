@@ -38,13 +38,11 @@ The attack is performed by modifying a trusted external dependency.
 
 ---
 
-## 🧪 Demonstration
-
 **Before attack**
-Application displays expected content
+![Before](images/before.png)
 
 **After attack**
-Behavior changes due to modified dependency
+![After](images/after.png)
 
 ---
 
